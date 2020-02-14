@@ -1,0 +1,28 @@
+.side-bar
+  .side-bar__user-name
+    .side-header
+      %p.side-header__user-name
+        hiro
+      %ul.side-header__menu
+        %li.side-header__menu--new-group
+          = link_to "#",class: 'new-group-btn' do
+            = icon('fas', 'edit')
+        %li.side-header__menu--edit-user
+          = link_to "#", class: 'edit-user-btn' do
+            = icon('fas', 'cog')
+
+
+  .side-bar__group-list
+    .groups
+      = link_to "#", class:"group" do
+        %p.group__group-name
+          test
+        %p.group__latest-message
+          まだメッセージがありません
+  
+    .groups
+      = link_to "#", class:"group" do
+        %p.group__group-name
+          test2
+        %p.group__latest-message
+          まだメッセージがありません
