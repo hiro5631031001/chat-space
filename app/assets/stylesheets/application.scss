@@ -1,10 +1,13 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "reset";
+@import "config/colors";
+@import "modules/user";
 @import "config/variable";
 @import "modules/messages";
 @import "modules/wrapper";
 @import "modules/side-bar";
 @import "modules/main-chat";
+@import "modules/flash";
 
 
