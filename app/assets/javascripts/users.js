@@ -21,7 +21,7 @@ $(function(){
 
   function addDeleteUse(name, id) {
     var html = `
-    <div class="chat-group-user clearfix">
+    <div class="chat-group-user clearfix" id="${id}">
       <p class="chat-group-user__name">${name}</p>
       <div class="user-search-remove chat-group-user__btn chat-group-user__btn--remove" data-user-id="${id}" data-user-name="${name}">削除</div>
     </div>
